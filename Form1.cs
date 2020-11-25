@@ -220,7 +220,15 @@ namespace Zmeika
                     direction = Direction.Forward;
                     break;
 
+                case Keys.Up:
+                    direction = Direction.Forward;
+                    break;
+
                 case Keys.A:
+                    direction = Direction.Left;
+                    break;
+
+                case Keys.Left:
                     direction = Direction.Left;
                     break;
 
@@ -228,7 +236,15 @@ namespace Zmeika
                     direction = Direction.Down;
                     break;
 
+                case Keys.Down:
+                    direction = Direction.Down;
+                    break;
+
                 case Keys.D:
+                    direction = Direction.Right;
+                    break;
+
+                case Keys.Right:
                     direction = Direction.Right;
                     break;
             }
