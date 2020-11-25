@@ -218,9 +218,6 @@ namespace Zmeika
             StartGame(sender, e);
         }
 
-        private void Button1_KeyDown(object sender, KeyEventArgs e)
-        {
-        }
 
         private enum Direction
         {

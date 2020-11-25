@@ -64,7 +64,6 @@ namespace Zmeika
             this.button1.Text = "Start Game";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.Button1_Click);
-            this.button1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Button1_KeyDown);
             // 
             // Form1
             // 
