@@ -1,7 +1,7 @@
 ﻿
 namespace Zmeika
 {
-    partial class Form1
+    partial class SnakeForm
     {
         /// <summary>
         /// Обязательная переменная конструктора.
@@ -30,7 +30,7 @@ namespace Zmeika
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.pictureBox1 = new Form1.PictureBoxWithInterpolationMode();
+            this.pictureBox1 = new SnakeForm.PictureBoxWithInterpolationMode();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -65,15 +65,15 @@ namespace Zmeika
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
-            // Form1
+            // SnakeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(664, 521);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "SnakeForm";
+            this.Text = "SnakeForm";
             this.Load += new System.EventHandler(this.StartGame);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
