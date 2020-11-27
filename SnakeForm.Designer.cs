@@ -30,7 +30,7 @@ namespace Zmeika
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.pictureBox1 = new SnakeForm.PictureBoxWithInterpolationMode();
+            this.pictureBox1 = new PictureBoxWithInterpolationMode();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();

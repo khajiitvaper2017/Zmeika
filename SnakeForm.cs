@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Drawing;
-using System.Drawing.Drawing2D;
 using System.Windows.Forms;
 
 // ReSharper disable InconsistentNaming
@@ -104,15 +103,6 @@ namespace Zmeika
             button1.Enabled = false;
             button1.Visible = false;
             StartGame(sender, e);
-        }
-
-        public class PictureBoxWithInterpolationMode : PictureBox
-        {
-            protected override void OnPaint(PaintEventArgs paintEventArgs)
-            {
-                paintEventArgs.Graphics.InterpolationMode = InterpolationMode.NearestNeighbor;
-                base.OnPaint(paintEventArgs);
-            }
         }
     }
 }
